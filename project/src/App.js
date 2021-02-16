@@ -7,7 +7,7 @@ import Person from "./Person";
 function App() {
   return (
       <Container className="main-container py-3">
-          <div className="title pb-5">Cloud Computing 2021 - Grupa AMKF</div>
+          <div className="title pb-5">Cloud Computing 2021 - Grupa AKMF</div>
         {PEOPLE.map(({name, surname, address, email, faculty,facebookLink}, index) =>
             <>
             <Person name={name} surname={surname} address={address} email={email} faculty={faculty} facebookLink={facebookLink}/>
