@@ -30,5 +30,7 @@ export const PEOPLE = [
         address:'Bulevar Kulina bana 3',
         faculty: 'EFSA',
         facebookLink: 'https://www.facebook.com/gigalab'
+    }, {
+
     }
 ];
