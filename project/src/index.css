@@ -29,6 +29,12 @@ code {
   background-color: #152238 ;
   border-radius: 10px;
   color: white;
+  cursor: pointer;
+}
+
+.person:hover {
+  opacity: 0.9;
+  transition: 0.5s;
 }
 
 .title {
@@ -53,5 +59,15 @@ code {
 
 .color5 {
   background-color: #800080;
+}
+
+.line {
+  border-left: 10px solid #152238;
+  height: 70px;
+}
+
+a {
+  color: white!important;
+  text-decoration: none!important;
 }
 
