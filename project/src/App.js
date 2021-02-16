@@ -1,27 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {Container} from 'reactstrap';
+import {PEOPLE} from "./constants";
+import Person from "./Person";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-            <p>
-              Faris
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Container className="main-container">
+          <div className="title">Cloud Computing 2021 - Grupa AMKF</div>
+        {PEOPLE.map(({name, surname, address, email, faculty}) =>
+            <Person name={name} surname={surname} address={address} email={email} faculty={faculty}/>)}
+      </Container>
   );
 }
 
