@@ -6,9 +6,6 @@ const Person = ({name,surname, email, address, faculty, facebookLink}) => {
     return <Container className="person">
         <a href={facebookLink || 'https://www.facebook.com/'} target="_blank" className="a-custom">
         <Row className="d-flex w-100 justify-content-center py-3">
-            <Col xs={3} className="d-flex align-items-center">
-                <Avatar name={name || 'Unknown'} surname={surname || 'Unknown'}/>
-            </Col>
             <Col xs={9}>
                 <Row>
                     <Col xs={12} className="name-surname d-flex align-items-center">{name || 'Unknown'} {surname || 'Unknown'}</Col>
