@@ -1,12 +1,5 @@
 export const PEOPLE = [
     {
-        name: 'Faris',
-        surname: 'Šišić',
-        email: 'sisicfarisofficial@gmail.com',
-        address: 'Hasana Brkića 15',
-        faculty: 'EFSA'
-    },
-    {
         name: 'Adna',
         surname: 'Čorbo',
         email: 'acorbo3@etf.unsa.ba',
