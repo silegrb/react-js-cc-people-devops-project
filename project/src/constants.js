@@ -30,5 +30,20 @@ export const PEOPLE = [
         address:'Bulevar Kulina bana 3',
         faculty: 'EFSA',
         facebookLink: 'https://www.facebook.com/gigalab'
+    },
+    {
+    },
+    {
+        name: 'John',
+        surname: 'Doe',
+        email: 'johndoe@outlook.com',
+        address:'Nothing About 1',
+        faculty: 'ETF',
+        facebookLink: 'https://www.facebook.com/john.harden.33865/'
+    },
+    {
+        name: 'Jane',
+        surname: 'Doe',
+        faculty: 'MEF',
     }
 ];
