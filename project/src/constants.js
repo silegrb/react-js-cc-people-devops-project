@@ -7,6 +7,13 @@ export const PEOPLE = [
         faculty: 'EFSA'
     },
     {
+        name: 'Adna',
+        surname: 'Čorbo',
+        email: 'acorbo3@etf.unsa.ba',
+        address: 'Bistrik medresa 16',
+        faculty: 'EFSA'
+    },
+    {
         name: 'Mirsad',
         surname: 'Kazić',
         email: 'mirsadkazic@outlook.com',
