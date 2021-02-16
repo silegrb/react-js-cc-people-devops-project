@@ -11,7 +11,7 @@ pool:
 
 # Set variables
 variables:
-  directory: cc2021-akmf-react
+  directory: 
   stage: development
   serviceConnection: CC2021-AKMF-DEMO
   appServiceName: cc2021-akmf
