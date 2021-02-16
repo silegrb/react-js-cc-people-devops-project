@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('assets/background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {
@@ -30,15 +34,19 @@ code {
   border-radius: 10px;
   color: white;
   cursor: pointer;
+  opacity: 0.9;
+  border: 3px solid #152238;
 }
 
 .person:hover {
-  opacity: 0.9;
+  border: 3px solid white;
+  opacity: 1;
   transition: 0.5s;
 }
 
 .title {
   font-size: 45px;
+  color: white;
 }
 
 .color1 {
